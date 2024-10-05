@@ -1,0 +1,23 @@
+.carousel-image {
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  @media (max-width: 1024px) {
+    .carousel-image {
+      height: 250px; /* Adjust height for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-image {
+      height: 200px; /* Adjust height for small screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel-image {
+      height: 150px; /* Adjust height for extra-small screens */
+    }
+  }
+  
